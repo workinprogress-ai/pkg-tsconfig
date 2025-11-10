@@ -4,6 +4,6 @@
 # Skip hooks in CI
 [ -n "$CI" ] && exit 0
 
-pnpm run lint
-pnpm run spellcheck
-pnpm run coverage
+pnpm lint
+pnpm spellcheck
+pnpm coverage
