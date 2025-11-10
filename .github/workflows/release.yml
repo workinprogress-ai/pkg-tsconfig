@@ -26,20 +26,13 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: '20'
-
-            - name: Setup Bun
-              uses: oven-sh/setup-bun@v2
-              with:
-                  bun-version: latest
+                  cache: 'npm'
 
             - name: Install dependencies
-              run: bun install
-
-            - name: Verify semantic-release version
-              run: bun pm ls | grep semantic-release
+              run: npm ci
 
             - name: Release
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-              run: bun run ci:release
+              run: npx semantic-release
