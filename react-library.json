@@ -1,0 +1,12 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "displayName": "React Library",
+    "extends": "./base.json",
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "types": ["vitest/globals", "vitest"]
+    }
+}
