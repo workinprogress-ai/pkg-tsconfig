@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/workinprogress-ai/pkg-tsconfig/compare/v1.0.0...v1.0.1) (2025-11-15)
+
+
+### Bug Fixes
+
+* readme ([482a49f](https://github.com/workinprogress-ai/pkg-tsconfig/commit/482a49f86c88e4bad2eed449ef4c66cd0e1cafcc))
+
 # 1.0.0 (2025-11-10)
 
 
