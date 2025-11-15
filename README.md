@@ -1,6 +1,6 @@
 # @workinprogress-ai/tsconfig
 
-Shared TypeScript configurations for WIP projects.
+Shared TypeScript configurations for WIP projects
 
 ## Installation
 
